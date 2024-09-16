@@ -15,6 +15,16 @@ vim.g.have_nerd_font = false
 -- Make line numbers default
 vim.opt.number = true
 
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 2
+vim.opt.expandtab = true
+vim.opt.smartindent = true
+vim.opt.autoindent = true
+
+vim.opt.wrap = false
+
+vim.opt.termguicolors = true
+
 -- Relative line numbers
 vim.opt.relativenumber = true
 
